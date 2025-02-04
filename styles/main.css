@@ -369,6 +369,7 @@ h3 {
         border: none;
         color: var(--primary--tint);
         padding: 2px 5px;
+        cursor: pointer;
     
         &:hover, 
         &:active {
