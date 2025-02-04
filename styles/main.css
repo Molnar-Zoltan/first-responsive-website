@@ -346,5 +346,48 @@ h3 {
 }
 
 
+.emailP {
+
+    display: flex;
+    align-items: center;
+
+    & .emailText {
+        background: none;
+        border: none;
+        outline: none;
+        color: var(--text-color);
+        font-size: var(--font-size-md);
+        font-weight: var(--font-weight-regular);
+        margin: 0 5px;
+    }
+    
+    & .copyTextButton {
+        background-color: var(--secondary-tint);
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-bold);
+        border-radius: 0.5rem;
+        border: none;
+        color: var(--primary--tint);
+        padding: 2px 5px;
+    
+        &:hover, 
+        &:active {
+            color: var(--tertiary-base);      
+        }
+    }
 
 
+
+}
+
+.textCopied {
+    display: none;
+    width: 100%;
+    color: var(--tertiary-base);
+    font-size: var(--font-size-sm);
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
