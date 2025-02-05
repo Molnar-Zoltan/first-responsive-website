@@ -83,7 +83,7 @@ function resizeEmailInput() { // Resizes the E-Mail input field to match the tex
 
 
 document.addEventListener("DOMContentLoaded", (event) => {
-    loadContent('/pages/home.html');
+    loadContent('pages/home.html');
     showCoprightText();
 });
 
